@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Url Shortener - Telusko 2M</title>
+</head>
+<body>
+<form action="shorten" method="get">
+    <input type="text" name="oUrl">
+    <input type="submit" value="Shorten">
+</form>
+<h1 th:text="${sUrl}"></h1>
+</body>
+</html>
